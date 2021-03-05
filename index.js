@@ -17,11 +17,6 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Please enter a Table of Contents.',
-        name: 'TOC',
-    },
-    {
-        type: 'input',
         message: 'What are your projects install instructions?',
         name: 'install',
     },
@@ -32,7 +27,7 @@ inquirer
     },
     {
         type: 'checkbox',
-        message: 'Choose a license: ',
+        message: 'Choose a License: ',
         choices: [
             'MIT',
             'Apache',
