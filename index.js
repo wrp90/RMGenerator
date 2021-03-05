@@ -32,10 +32,10 @@ inquirer
             'MIT',
             'Apache',
             'MPL',
-            'GPL',
+            'GPL v3',
             'None',
         ],
-        name: 'License',
+        name: 'license',
     },
     {
         type: 'input',
@@ -58,7 +58,6 @@ inquirer
         name: 'email',
     }
     ]).then((response) => {
-        console.log(response);
         var mkdown = generateMarkdown(response)
 
         fs.writeFile('README.md', mkdown, (err) => {
