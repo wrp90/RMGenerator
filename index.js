@@ -63,7 +63,8 @@ inquirer
         name: 'email',
     }
     ]).then((response) => {
-        // var mkdown = generateMarkdown(response)
+        console.log(response);
+        var mkdown = generateMarkdown(response)
 
         fs.writeFile('README.md', mkdown, (err) => {
             err ? console.error(err) : console.log('Commit logged!')
