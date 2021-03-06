@@ -1,7 +1,7 @@
 # ReadMe Generator
 
   ## Description
-  This project was designed to generate a good readme that includes license info. 
+  This project was designed to generate a good readme that includes sections, table of contents and license info. 
   ## Table of Contents: 
   - [Description](#Description)
   - [Installation](#Install)
@@ -11,9 +11,9 @@
   - [Questions](#Questions)
   - [License](#License)
   ## Install
-  To install, simply extract the files and open with VS code. 
+  To install, simply download and extract the files and open with VS code. 
   ## Usage
-  You use this app by starting the app in the VS code terminal by typing 'node index.js', then just fill out the prompt. 
+  You use this app by opening the application files in VS code.  Open the integrated terminal and type 'node index.js'.  The application will then launch and you will be presented with a series of questions about your project.  
   ## Contributing
   Anyone can contribute to this project
   ## Tests
